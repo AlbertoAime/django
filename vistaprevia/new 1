@@ -1,0 +1,15 @@
+
+<div class="col-sm-6">
+	<label for="id_producto">Producto:</label> 
+	<input type="text" name="producto" maxlength="200" required="" id="id_producto">
+</div>
+<div class="col-sm-6">
+	<label for="id_fecha_publicacion">Fecha de publicación:</label> 
+	<input type="text" name="fecha_publicacion" required="" id="id_fecha_publicacion">
+</div>
+<div class="col-sm-6">
+	<label for="id_ruta_imagen">Ruta imagen:</label> 
+	<input type="file" name="ruta_imagen" id="id_ruta_imagen">
+</div>
+					
+					

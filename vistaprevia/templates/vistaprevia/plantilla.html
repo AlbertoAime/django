@@ -1,0 +1,26 @@
+{% extends "vistaprevia/base.html" %}
+{% block contenedor %}
+      <header class="container-fluid">
+		<div class="row">
+			<div style="background-color:#9999ff; color:#000;text-align:center; height:70px;" class="col-xs-12">
+				<h1>Paisajes de la Argentina</h1> 
+			</div>
+		</div>
+      </header>
+      <div class="container">
+		<div class="row">
+			<div style="background-color:#ccccff;" class="col-xs-12 col-sm-12 col-md-12">
+				{% block content %}{% endblock %}
+			</div>
+		</div>
+      </div>
+      <footer class="container-fluid">
+		<div class="row">
+			<div style="background-color:#99ff99; color:#003300;text-align:center; height:40px;" class="col-xs-12">
+				<h4>Copyright 2019 - Desarrollos web s.a.</h4>
+				<h5>Conociendo nuestro pais</h5>
+			</div>
+		</div>
+      </footer>
+{% endblock %}
+
